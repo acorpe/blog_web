@@ -31,7 +31,7 @@ user:
     last_name:
     email: admin@060800.xyz
     domain: https://www.060800.xyz
-    avatar: /assets/images/avatar.png
+    avatar: /assets/images/avatar.jpg
     describe: 日常琐事，简单记录。
 
 # name：链接名称
@@ -54,4 +54,4 @@ footer:
     live_time:
         enable: true
         prefix: footer.tips
-        start_time: 04/10/2022 17:00:00
+        start_time: 06/01/2024 00:00:00
