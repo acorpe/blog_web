@@ -1,0 +1,57 @@
+#  default：设置主题默认模式
+#   style-light：亮色模式
+#   style-dark：暗色模式
+#   auto：跟随系统选择
+#  switch：如果为 false，将不会出现主题切换按钮，只加载设置默认主题模式。
+theme:
+    switch: true
+    default: auto
+
+#  logo：顶部 logo
+#  dark_logo：顶部 logo，暗黑模式时显示
+#  icon16：icon 16*16
+#  icon32：icon 32*32
+favicon:
+    logo: /assets/images/favicon.png
+    icon16: /assets/images/favicon.ico
+    icon32: /assets/images/favicon.ico
+
+#  name：昵称，用于侧栏或其他区域标识
+#  first_name：名，用于顶部将姓和名分别显示
+#  last_name：姓，
+#  email：邮箱
+#  domain：域名
+#  avatar：头像
+#  dark_avatar：头像，黑暗主题时显示
+#  describe：网站简介
+#  rule_text：友链交换规则
+user:
+    name: 搬砖的小人物
+    first_name: 搬砖
+    last_name:
+    email: admin@060800.xyz
+    domain: https://www.060800.xyz
+    avatar: /assets/images/avatar.png
+    describe: 日常琐事，简单记录。
+
+# name：链接名称
+# icon：图标 class
+# url：链接
+sidebar:
+    social:
+    info: # 个人信息
+        -   key: 地址
+            val: 火星
+        -   key: 年龄
+            val: 永远18
+banner:
+  index:
+    banner_title: 相见即缘，<br>后会有期。
+footer:
+    powered:
+        enable: true
+    copyright_year: 2024
+    live_time:
+        enable: true
+        prefix: footer.tips
+        start_time: 04/10/2022 17:00:00

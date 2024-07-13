@@ -8,7 +8,7 @@ subtitle: ''
 description: '简简单单，记录碎石'
 keywords:
 author: 砖
-language: zh
+language: zh-Hans
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -96,7 +96,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: async
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
