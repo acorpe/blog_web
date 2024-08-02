@@ -99,7 +99,7 @@ class Name(db.Model):
 ### 最终程序测试
 经过此配置，则可通过此种方式进行测试
 ```Python
-# SQLite
+    # SQLite
     ur = User('admin', 'admin@example.com')
     db.session.add(ur)
     #TiDB
